@@ -1,0 +1,15 @@
+lab1/.terraform
+lab1/.terraform.lock.hcl
+lab1/terraform.tfstate
+lab2/.terraform
+lab2/.terraform.lock.hcl
+lab2/terraform.tfstate
+lab2/terraform.tfstate.backup
+lab3/.terraform
+lab3/.terraform.lock.hcl
+lab3/terraform.tfstate
+lab3/terraform.tfstate.backup
+lab4/.terraform
+lab4/.terraform.lock.hcl
+lab4/terraform.tfstate
+lab4/terraform.tfstate.backup
