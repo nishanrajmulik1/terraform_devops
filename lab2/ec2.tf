@@ -41,6 +41,7 @@ resource "aws_instance" "my_first_server" {
   instance_type   = var.instance_type
   key_name        = aws_key_pair.terraform_key_pair.key_name
   security_groups = [aws_security_group.dynamic_security_group.name]
+  user_data = file("scripts/install.sh")
 
   root_block_device {
     volume_size = 10
